@@ -34,7 +34,7 @@ span {
 }
 
 .img {
-  background-image: url(images/image-product-desktop.jpg);
+  background-image: url(image-product-desktop.jpg);
   width: 265px;
   border-radius: 10px 0 0 10px;
   background-repeat: no-repeat;
