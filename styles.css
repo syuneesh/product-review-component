@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+}
+
+main {
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  padding-bottom: 15px;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.img {
+  background-image: url(images/image-product-desktop.jpg);
+  width: 265px;
+  border-radius: 10px 0 0 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.container {
+  width: 530px;
+  border-radius: 55px;
+  display: flex;
+}
+
+.text {
+  background-color: hsl(0, 0%, 100%);
+  width: 265px;
+  padding: 25px;
+  border-radius: 0 10px 10px 0;
+}
+
+.p1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+}
+
+.p2 {
+  font-size: 1.0rem;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.big {
+  font-size: 1.875rem;
+  font-family: 'Fraunces', serif;
+  margin-right: 15px;
+  color: hsl(158, 36%, 37%);
+}
+
+.small {
+  text-decoration: line-through;
+  font-size: 0.9rem;
+  color: hsl(158, 36%, 37%);
+}
+
+.btn {
+  background-color: hsl(158, 36%, 37%);
+  text-align: center;
+  padding: 0.9rem;
+  border-radius: 8px;
+}
+.btn:hover{
+  background-color: hsl(212, 21%, 14);
+  cursor: pointer;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
